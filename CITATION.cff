@@ -15,3 +15,6 @@ keywords:
   - "C"
 license: MIT
 repository-code: "https://github.com/DrKaiZhang/llm-c-migration-benchmark"
+version: v1.0.0
+doi: 10.5281/zenodo.23444420
+date-released: "2026-10-18"
