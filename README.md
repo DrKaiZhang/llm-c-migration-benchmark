@@ -34,8 +34,7 @@ If you use this artefact, please cite the accompanying manuscript:
 
 > Zhang Kai. Benchmarking Code Language Models on Industrial-Software Migration Tasks (under review).
 
-A DOI for this repository will be minted through Zenodo once the repository is
-archived; until then cite this GitHub URL.
+The release (v1.0.0) is permanently archived on Zenodo: https://doi.org/10.5281/zenodo.23444420.
 
 ## License
 
