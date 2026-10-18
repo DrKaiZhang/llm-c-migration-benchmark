@@ -1,0 +1,762 @@
+{
+  "version": "2.0.0",
+  "construction": "both sides of every pair are real revisions of the same file from the project's own history; the legacy blob is verified present locally before use, and candidates whose history is remote are counted as skipped rather than replaced by hand-written code",
+  "n_tasks": 20,
+  "tasks": [
+    {
+      "task_id": "esp8266_ard__f841c326",
+      "project": "ESP8266-Arduino",
+      "domain": "embedded-OS",
+      "path": "bootloaders/eboot/flash.c",
+      "legacy_sha": "73740d6e6d5c0a684438d73a78d319c4c3cd5686",
+      "modern_sha": "1475ed7d49fef5c5167061ac76abb6eced9abda5",
+      "legacy_lines": 43,
+      "modern_lines": 50,
+      "legacy_bytes": 1126,
+      "modern_bytes": 1368,
+      "changed_lines": 6,
+      "change_fraction": 0.1395,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 6
+        }
+      ],
+      "n_intents": 1,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "esp8266_ard__6789b6bc",
+      "project": "ESP8266-Arduino",
+      "domain": "embedded-OS",
+      "path": "libraries/SPISlave/src/hspi_slave.c",
+      "legacy_sha": "4217e49b548bf613eb1ee042cc38797f67009af2",
+      "modern_sha": "1475ed7d49fef5c5167061ac76abb6eced9abda5",
+      "legacy_lines": 144,
+      "modern_lines": 170,
+      "legacy_bytes": 4323,
+      "modern_bytes": 5305,
+      "changed_lines": 43,
+      "change_fraction": 0.2986,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 20
+        },
+        {
+          "id": "MI-BOUND",
+          "name": "bounded-iteration",
+          "rationale": "unbounded loop replaced by counted loop",
+          "legacy_hits": 0,
+          "modern_hits": 2
+        }
+      ],
+      "n_intents": 2,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "esp8266_ard__f3294b87",
+      "project": "ESP8266-Arduino",
+      "domain": "embedded-OS",
+      "path": "cores/esp8266/umm_malloc/umm_local.c",
+      "legacy_sha": "7a43092df0c8734577870f5630ee0062150c1074",
+      "modern_sha": "1475ed7d49fef5c5167061ac76abb6eced9abda5",
+      "legacy_lines": 216,
+      "modern_lines": 396,
+      "legacy_bytes": 5910,
+      "modern_bytes": 12249,
+      "changed_lines": 264,
+      "change_fraction": 1.2222,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-STR",
+          "name": "bounded-string-handling",
+          "rationale": "unbounded string primitive replaced by a bounded variant",
+          "legacy_hits": 0,
+          "modern_hits": 1
+        },
+        {
+          "id": "MI-PTR",
+          "name": "const-correctness",
+          "rationale": "read-only buffer annotated const",
+          "legacy_hits": 0,
+          "modern_hits": 4
+        }
+      ],
+      "n_intents": 2,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "esp8266_ard__a09eb189",
+      "project": "ESP8266-Arduino",
+      "domain": "embedded-OS",
+      "path": "bootloaders/eboot/eboot.c",
+      "legacy_sha": "48e0d44860f338af6106988ffc296982c43c5bdf",
+      "modern_sha": "1475ed7d49fef5c5167061ac76abb6eced9abda5",
+      "legacy_lines": 87,
+      "modern_lines": 318,
+      "legacy_bytes": 1932,
+      "modern_bytes": 9751,
+      "changed_lines": 229,
+      "change_fraction": 2.6322,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 24
+        },
+        {
+          "id": "MI-VOLATILE",
+          "name": "volatile-hardware-access",
+          "rationale": "hardware register access made volatile",
+          "legacy_hits": 0,
+          "modern_hits": 3
+        }
+      ],
+      "n_intents": 2,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "freertos__4d8d93cb",
+      "project": "FreeRTOS-Kernel",
+      "domain": "RTOS-kernel",
+      "path": "portable/IAR/ARM_CRx_No_GIC/port.c",
+      "legacy_sha": "210b1ffcc87bcff93871a37fbf0ad2033870ecaf",
+      "modern_sha": "8be86d4a24fd4091f8f4192018423ab590f408db",
+      "legacy_lines": 317,
+      "modern_lines": 322,
+      "legacy_bytes": 11658,
+      "modern_bytes": 12331,
+      "changed_lines": 155,
+      "change_fraction": 0.489,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 9
+        },
+        {
+          "id": "MI-VOLATILE",
+          "name": "volatile-hardware-access",
+          "rationale": "hardware register access made volatile",
+          "legacy_hits": 0,
+          "modern_hits": 6
+        }
+      ],
+      "n_intents": 2,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "freertos__39190b22",
+      "project": "FreeRTOS-Kernel",
+      "domain": "RTOS-kernel",
+      "path": "portable/GCC/ARM_AARCH64/port.c",
+      "legacy_sha": "938ec0f7bfb86ab70e49c23be625c99d760db4eb",
+      "modern_sha": "8be86d4a24fd4091f8f4192018423ab590f408db",
+      "legacy_lines": 525,
+      "modern_lines": 557,
+      "legacy_bytes": 21294,
+      "modern_bytes": 22521,
+      "changed_lines": 37,
+      "change_fraction": 0.0705,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 24
+        },
+        {
+          "id": "MI-VOLATILE",
+          "name": "volatile-hardware-access",
+          "rationale": "hardware register access made volatile",
+          "legacy_hits": 0,
+          "modern_hits": 10
+        }
+      ],
+      "n_intents": 2,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "freertos__a2ee7a45",
+      "project": "FreeRTOS-Kernel",
+      "domain": "RTOS-kernel",
+      "path": "portable/GCC/ARM7_LPC23xx/port.c",
+      "legacy_sha": "210b1ffcc87bcff93871a37fbf0ad2033870ecaf",
+      "modern_sha": "8be86d4a24fd4091f8f4192018423ab590f408db",
+      "legacy_lines": 234,
+      "modern_lines": 234,
+      "legacy_bytes": 8114,
+      "modern_bytes": 8427,
+      "changed_lines": 107,
+      "change_fraction": 0.4573,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 10
+        }
+      ],
+      "n_intents": 1,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "freertos__83e6bdbd",
+      "project": "FreeRTOS-Kernel",
+      "domain": "RTOS-kernel",
+      "path": "portable/IAR/STR75x/port.c",
+      "legacy_sha": "210b1ffcc87bcff93871a37fbf0ad2033870ecaf",
+      "modern_sha": "8be86d4a24fd4091f8f4192018423ab590f408db",
+      "legacy_lines": 238,
+      "modern_lines": 235,
+      "legacy_bytes": 7949,
+      "modern_bytes": 8256,
+      "changed_lines": 95,
+      "change_fraction": 0.4043,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 3
+        }
+      ],
+      "n_intents": 1,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "iotivity__5e551019",
+      "project": "IoTivity-Lite",
+      "domain": "IoT-middleware",
+      "path": "api/client/oc_client_cb.c",
+      "legacy_sha": "b9c35b358984539a527c6f040e8a839c0a9395aa",
+      "modern_sha": "49441ba166919599f2b9aa611107e5aba935828e",
+      "legacy_lines": 534,
+      "modern_lines": 592,
+      "legacy_bytes": 15421,
+      "modern_bytes": 17451,
+      "changed_lines": 112,
+      "change_fraction": 0.2097,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-STR",
+          "name": "bounded-string-handling",
+          "rationale": "unbounded string primitive replaced by a bounded variant",
+          "legacy_hits": 0,
+          "modern_hits": 1
+        },
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 1,
+          "modern_hits": 16
+        },
+        {
+          "id": "MI-PTR",
+          "name": "const-correctness",
+          "rationale": "read-only buffer annotated const",
+          "legacy_hits": 0,
+          "modern_hits": 9
+        }
+      ],
+      "n_intents": 3,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "iotivity__13a2879a",
+      "project": "IoTivity-Lite",
+      "domain": "IoT-middleware",
+      "path": "apps/simpleclient_windows.c",
+      "legacy_sha": "fd3d135e189bf259c6d778cc5a951f37a6457688",
+      "modern_sha": "49441ba166919599f2b9aa611107e5aba935828e",
+      "legacy_lines": 285,
+      "modern_lines": 298,
+      "legacy_bytes": 7371,
+      "modern_bytes": 7777,
+      "changed_lines": 180,
+      "change_fraction": 0.6316,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-BOUND",
+          "name": "bounded-iteration",
+          "rationale": "unbounded loop replaced by counted loop",
+          "legacy_hits": 0,
+          "modern_hits": 1
+        },
+        {
+          "id": "MI-PTR",
+          "name": "const-correctness",
+          "rationale": "read-only buffer annotated const",
+          "legacy_hits": 0,
+          "modern_hits": 2
+        }
+      ],
+      "n_intents": 2,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "iotivity__f491e8ff",
+      "project": "IoTivity-Lite",
+      "domain": "IoT-middleware",
+      "path": "api/oc_collection.c",
+      "legacy_sha": "657faf7b1ecb194b44e34c1ad9f660168c03e5e1",
+      "modern_sha": "49441ba166919599f2b9aa611107e5aba935828e",
+      "legacy_lines": 1007,
+      "modern_lines": 1122,
+      "legacy_bytes": 32630,
+      "modern_bytes": 34900,
+      "changed_lines": 1036,
+      "change_fraction": 1.0288,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-STR",
+          "name": "bounded-string-handling",
+          "rationale": "unbounded string primitive replaced by a bounded variant",
+          "legacy_hits": 0,
+          "modern_hits": 11
+        },
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 1,
+          "modern_hits": 4
+        },
+        {
+          "id": "MI-ERR",
+          "name": "error-return-propagation",
+          "rationale": "unchecked failure path replaced by explicit propagation",
+          "legacy_hits": 0,
+          "modern_hits": 5
+        },
+        {
+          "id": "MI-PTR",
+          "name": "const-correctness",
+          "rationale": "read-only buffer annotated const",
+          "legacy_hits": 0,
+          "modern_hits": 7
+        }
+      ],
+      "n_intents": 4,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "iotivity__e1281e54",
+      "project": "IoTivity-Lite",
+      "domain": "IoT-middleware",
+      "path": "apps/client_certification_tests.c",
+      "legacy_sha": "c9695683da941adaa2dd59aba415265660803f9c",
+      "modern_sha": "49441ba166919599f2b9aa611107e5aba935828e",
+      "legacy_lines": 586,
+      "modern_lines": 1116,
+      "legacy_bytes": 14899,
+      "modern_bytes": 29567,
+      "changed_lines": 776,
+      "change_fraction": 1.3242,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-STR",
+          "name": "bounded-string-handling",
+          "rationale": "unbounded string primitive replaced by a bounded variant",
+          "legacy_hits": 0,
+          "modern_hits": 5
+        },
+        {
+          "id": "MI-ERR",
+          "name": "error-return-propagation",
+          "rationale": "unchecked failure path replaced by explicit propagation",
+          "legacy_hits": 0,
+          "modern_hits": 4
+        },
+        {
+          "id": "MI-PTR",
+          "name": "const-correctness",
+          "rationale": "read-only buffer annotated const",
+          "legacy_hits": 0,
+          "modern_hits": 17
+        }
+      ],
+      "n_intents": 3,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "mosquitto__a67b3ba5",
+      "project": "Mosquitto",
+      "domain": "industrial-messaging",
+      "path": "src/topic_tok.c",
+      "legacy_sha": "d92360dd8eaf35c888119cb87837c0d87fbb8b28",
+      "modern_sha": "83f2620f0b955b89aadce32cceb96a8e81950f5e",
+      "legacy_lines": 138,
+      "modern_lines": 127,
+      "legacy_bytes": 2836,
+      "modern_bytes": 2568,
+      "changed_lines": 144,
+      "change_fraction": 1.1339,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-PTR",
+          "name": "const-correctness",
+          "rationale": "read-only buffer annotated const",
+          "legacy_hits": 0,
+          "modern_hits": 2
+        }
+      ],
+      "n_intents": 1,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "mosquitto__cc6f58f4",
+      "project": "Mosquitto",
+      "domain": "industrial-messaging",
+      "path": "src/property_broker.c",
+      "legacy_sha": "d5108956bf99507d521246959913bc650133d971",
+      "modern_sha": "83f2620f0b955b89aadce32cceb96a8e81950f5e",
+      "legacy_lines": 65,
+      "modern_lines": 231,
+      "legacy_bytes": 1666,
+      "modern_bytes": 6699,
+      "changed_lines": 174,
+      "change_fraction": 2.6769,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 2
+        }
+      ],
+      "n_intents": 1,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "mosquitto__90e411bd",
+      "project": "Mosquitto",
+      "domain": "industrial-messaging",
+      "path": "src/bridge.c",
+      "legacy_sha": "d8090afbfbcba96582dadae0eafa6d9f93843779",
+      "modern_sha": "83f2620f0b955b89aadce32cceb96a8e81950f5e",
+      "legacy_lines": 1056,
+      "modern_lines": 1182,
+      "legacy_bytes": 32320,
+      "modern_bytes": 35111,
+      "changed_lines": 466,
+      "change_fraction": 0.4413,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-STR",
+          "name": "bounded-string-handling",
+          "rationale": "unbounded string primitive replaced by a bounded variant",
+          "legacy_hits": 0,
+          "modern_hits": 3
+        },
+        {
+          "id": "MI-BOUND",
+          "name": "bounded-iteration",
+          "rationale": "unbounded loop replaced by counted loop",
+          "legacy_hits": 0,
+          "modern_hits": 10
+        }
+      ],
+      "n_intents": 2,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "mosquitto__33793e06",
+      "project": "Mosquitto",
+      "domain": "industrial-messaging",
+      "path": "lib/packet_mosq.c",
+      "legacy_sha": "16fb0025a75c1f19df0e3ac53d51092ee4e58745",
+      "modern_sha": "83f2620f0b955b89aadce32cceb96a8e81950f5e",
+      "legacy_lines": 534,
+      "modern_lines": 696,
+      "legacy_bytes": 14759,
+      "modern_bytes": 19399,
+      "changed_lines": 415,
+      "change_fraction": 0.7772,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-STR",
+          "name": "bounded-string-handling",
+          "rationale": "unbounded string primitive replaced by a bounded variant",
+          "legacy_hits": 0,
+          "modern_hits": 1
+        },
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 1,
+          "modern_hits": 22
+        },
+        {
+          "id": "MI-BOUND",
+          "name": "bounded-iteration",
+          "rationale": "unbounded loop replaced by counted loop",
+          "legacy_hits": 0,
+          "modern_hits": 1
+        }
+      ],
+      "n_intents": 3,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "beremiz__e91aaf3d",
+      "project": "Beremiz",
+      "domain": "SCADA-runtime",
+      "path": "cia402/plc_cia402node.c",
+      "legacy_sha": "fa4ad3b08637cd6416c541548d370cac551285ad",
+      "modern_sha": "5e3a749da2297251a9368d3ce2de61619cdf5ce2",
+      "legacy_lines": 256,
+      "modern_lines": 260,
+      "legacy_bytes": 6909,
+      "modern_bytes": 7271,
+      "changed_lines": 24,
+      "change_fraction": 0.0938,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 0,
+          "modern_hits": 2
+        }
+      ],
+      "n_intents": 1,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "beremiz__2eee1d65",
+      "project": "Beremiz",
+      "domain": "SCADA-runtime",
+      "path": "targets/plc_logging.c",
+      "legacy_sha": "541123b79251c394154c2d6851bc5d3280ba5770",
+      "modern_sha": "5e3a749da2297251a9368d3ce2de61619cdf5ce2",
+      "legacy_lines": 150,
+      "modern_lines": 235,
+      "legacy_bytes": 4841,
+      "modern_bytes": 8958,
+      "changed_lines": 90,
+      "change_fraction": 0.6,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-STR",
+          "name": "bounded-string-handling",
+          "rationale": "unbounded string primitive replaced by a bounded variant",
+          "legacy_hits": 0,
+          "modern_hits": 9
+        },
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 3,
+          "modern_hits": 51
+        },
+        {
+          "id": "MI-BOUND",
+          "name": "bounded-iteration",
+          "rationale": "unbounded loop replaced by counted loop",
+          "legacy_hits": 0,
+          "modern_hits": 1
+        }
+      ],
+      "n_intents": 3,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "beremiz__66ee2715",
+      "project": "Beremiz",
+      "domain": "SCADA-runtime",
+      "path": "targets/Win32/plc_Win32_main_retain.c",
+      "legacy_sha": "0ae1a86f9cee3215812ebb1c2ae1057f8b82884f",
+      "modern_sha": "5e3a749da2297251a9368d3ce2de61619cdf5ce2",
+      "legacy_lines": 301,
+      "modern_lines": 322,
+      "legacy_bytes": 6832,
+      "modern_bytes": 9869,
+      "changed_lines": 80,
+      "change_fraction": 0.2658,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-TYPE",
+          "name": "explicit-width-types",
+          "rationale": "implementation-defined widths replaced by exact-width types",
+          "legacy_hits": 10,
+          "modern_hits": 14
+        },
+        {
+          "id": "MI-BOUND",
+          "name": "bounded-iteration",
+          "rationale": "unbounded loop replaced by counted loop",
+          "legacy_hits": 0,
+          "modern_hits": 2
+        },
+        {
+          "id": "MI-PTR",
+          "name": "const-correctness",
+          "rationale": "read-only buffer annotated const",
+          "legacy_hits": 0,
+          "modern_hits": 1
+        }
+      ],
+      "n_intents": 3,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    },
+    {
+      "task_id": "beremiz__cbcbfa90",
+      "project": "Beremiz",
+      "domain": "SCADA-runtime",
+      "path": "targets/plc_ios_main_head.c",
+      "legacy_sha": "ca5067718327be1b6d7639629751fd1cb6ae6eea",
+      "modern_sha": "5e3a749da2297251a9368d3ce2de61619cdf5ce2",
+      "legacy_lines": 343,
+      "modern_lines": 493,
+      "legacy_bytes": 10895,
+      "modern_bytes": 16702,
+      "changed_lines": 160,
+      "change_fraction": 0.4665,
+      "compiles_legacy": 0,
+      "compiles_modern": 0,
+      "compiles_both": 0,
+      "legacy_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "modern_error_head": "C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\envs\\dpas\\Scripts\\python.exe: No module named ziglang",
+      "intents": [
+        {
+          "id": "MI-VOLATILE",
+          "name": "volatile-hardware-access",
+          "rationale": "hardware register access made volatile",
+          "legacy_hits": 0,
+          "modern_hits": 3
+        }
+      ],
+      "n_intents": 1,
+      "provenance": "both sides from real repository revisions; legacy blob verified present locally"
+    }
+  ],
+  "screening": {
+    "stats": {
+      "accepted": 20,
+      "no_intent": 8,
+      "too_large": 1,
+      "change_too_small": 31
+    }
+  },
+  "per_project": {
+    "ESP8266-Arduino": 4,
+    "FreeRTOS-Kernel": 4,
+    "IoTivity-Lite": 4,
+    "Mosquitto": 4,
+    "Beremiz": 4
+  }
+}

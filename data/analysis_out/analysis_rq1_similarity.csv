@@ -1,0 +1,7 @@
+model,threshold,n,share
+qwen2.5-coder-0.5b,0.25,3,0.0789
+qwen2.5-coder-0.5b,0.5,0,0.0
+qwen2.5-coder-0.5b,0.75,0,0.0
+qwen2.5-coder-1.5b,0.25,6,0.1579
+qwen2.5-coder-1.5b,0.5,0,0.0
+qwen2.5-coder-1.5b,0.75,0,0.0

@@ -1,0 +1,6 @@
+project,n_attempts,mean_coverage,n_tasks
+ESP8266-Arduino,12,0.5,3
+Beremiz,16,0.4167,4
+FreeRTOS-Kernel,16,0.25,4
+Mosquitto,16,0.1875,4
+IoTivity-Lite,16,0.0,4

@@ -1,0 +1,322 @@
+/* path: security/oc_security.c
+   modern revision: 49441ba166919599f2b9aa611107e5aba935828e
+   project: iotivity
+   domain: IoT-middleware
+*/
+#ifndef GUARD_H
+#define GUARD_H
+/* stub for api/plgd/plgd_time_internal.h */
+#ifndef STUB_API_PLGD_PLGD_TIME_INTERNAL_H_42260797
+#define STUB_API_PLGD_PLGD_TIME_INTERNAL_H_42260797
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_api_plgd_plgd_time_internal_h_42260797;
+#endif
+/* stub for mbedtls/build_info.h */
+#ifndef STUB_MBEDTLS_BUILD_INFO_H_5E124765
+#define STUB_MBEDTLS_BUILD_INFO_H_5E124765
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_mbedtls_build_info_h_5e124765;
+#endif
+/* stub for mbedtls/debug.h */
+#ifndef STUB_MBEDTLS_DEBUG_H_DAEB6A53
+#define STUB_MBEDTLS_DEBUG_H_DAEB6A53
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_mbedtls_debug_h_daeb6a53;
+#endif
+/* stub for mbedtls/memory_buffer_alloc.h */
+#ifndef STUB_MBEDTLS_MEMORY_BUFFER_ALLOC_H_D1FD97BC
+#define STUB_MBEDTLS_MEMORY_BUFFER_ALLOC_H_D1FD97BC
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_mbedtls_memory_buffer_alloc_h_d1fd97bc;
+#endif
+/* stub for mbedtls/platform.h */
+#ifndef STUB_MBEDTLS_PLATFORM_H_5D331D70
+#define STUB_MBEDTLS_PLATFORM_H_5D331D70
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_mbedtls_platform_h_5d331d70;
+#endif
+/* stub for mbedtls/platform_time.h */
+#ifndef STUB_MBEDTLS_PLATFORM_TIME_H_44F574D7
+#define STUB_MBEDTLS_PLATFORM_TIME_H_44F574D7
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_mbedtls_platform_time_h_44f574d7;
+#endif
+/* stub for oc_acl.h */
+#ifndef STUB_OC_ACL_H_E39ECEF8
+#define STUB_OC_ACL_H_E39ECEF8
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_oc_acl_h_e39ecef8;
+#endif
+/* stub for oc_core_res.h */
+#ifndef STUB_OC_CORE_RES_H_31CD5F46
+#define STUB_OC_CORE_RES_H_31CD5F46
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_oc_core_res_h_31cd5f46;
+#endif
+/* stub for oc_cred.h */
+#ifndef STUB_OC_CRED_H_6DD467CA
+#define STUB_OC_CRED_H_6DD467CA
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_oc_cred_h_6dd467ca;
+#endif
+/* stub for oc_helpers.h */
+#ifndef STUB_OC_HELPERS_H_E20E8764
+#define STUB_OC_HELPERS_H_E20E8764
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_oc_helpers_h_e20e8764;
+#endif
+/* stub for oc_security_internal.h */
+#ifndef STUB_OC_SECURITY_INTERNAL_H_A815132B
+#define STUB_OC_SECURITY_INTERNAL_H_A815132B
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_oc_security_internal_h_a815132b;
+#endif
+/* stub for oc_store.h */
+#ifndef STUB_OC_STORE_H_3ECCF041
+#define STUB_OC_STORE_H_3ECCF041
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_oc_store_h_3eccf041;
+#endif
+/* stub for oc_uuid.h */
+#ifndef STUB_OC_UUID_H_1F0F643D
+#define STUB_OC_UUID_H_1F0F643D
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_oc_uuid_h_1f0f643d;
+#endif
+/* stub for port/oc_log_internal.h */
+#ifndef STUB_PORT_OC_LOG_INTERNAL_H_769FF793
+#define STUB_PORT_OC_LOG_INTERNAL_H_769FF793
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_port_oc_log_internal_h_769ff793;
+#endif
+/* stub for security/oc_doxm_internal.h */
+#ifndef STUB_SECURITY_OC_DOXM_INTERNAL_H_E17B0715
+#define STUB_SECURITY_OC_DOXM_INTERNAL_H_E17B0715
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_security_oc_doxm_internal_h_e17b0715;
+#endif
+/* stub for security/oc_pstat.h */
+#ifndef STUB_SECURITY_OC_PSTAT_H_0F7D6810
+#define STUB_SECURITY_OC_PSTAT_H_0F7D6810
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_security_oc_pstat_h_0f7d6810;
+#endif
+/* stub for security/oc_sdi_internal.h */
+#ifndef STUB_SECURITY_OC_SDI_INTERNAL_H_FCA60674
+#define STUB_SECURITY_OC_SDI_INTERNAL_H_FCA60674
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_security_oc_sdi_internal_h_fca60674;
+#endif
+/* stub for util/oc_features.h */
+#ifndef STUB_UTIL_OC_FEATURES_H_31E027EE
+#define STUB_UTIL_OC_FEATURES_H_31E027EE
+#include <stdint.h>
+#include <stddef.h>
+typedef struct { int stub_dummy; } stub_tstub_util_oc_features_h_31e027ee;
+#endif
+#endif
+
+/******************************************************************
+ *
+ * Copyright 2023 Daniel Adam, All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"),
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ ******************************************************************/
+
+#ifdef OC_SECURITY
+
+#include "oc_acl.h"
+#include "oc_core_res.h"
+#include "oc_cred.h"
+#include "oc_helpers.h"
+#include "oc_store.h"
+#include "oc_uuid.h"
+#include "port/oc_log_internal.h"
+#include "security/oc_acl_internal.h"
+#include "security/oc_ael_internal.h"
+#include "security/oc_cred_internal.h"
+#include "security/oc_doxm_internal.h"
+#include "security/oc_pstat_internal.h"
+#include "security/oc_security_internal.h"
+#include "security/oc_sdi_internal.h"
+#include "util/oc_features.h"
+
+#ifdef OC_HAS_FEATURE_PLGD_TIME
+#include "api/plgd/plgd_time_internal.h"
+#endif /* OC_HAS_FEATURE_PLGD_TIME */
+
+#include "mbedtls/build_info.h"
+#include "mbedtls/debug.h"
+#include "mbedtls/memory_buffer_alloc.h"
+#include "mbedtls/platform.h"
+#include "mbedtls/platform_time.h"
+
+#ifndef OC_DYNAMIC_ALLOCATION
+
+/* Static allocation buffer used by mbedTLS
+ * Note: for mbedTLS v3.1.0 20000 bytes is enough, but for mbedTLS v3.5.0 the
+ * handshake sometimes fails with allocation errors */
+#ifndef OC_MBEDTLS_ALLOCATION_BUFFER_SIZE
+#if MBEDTLS_VERSION_NUMBER <= 0x03010000
+#define OC_MBEDTLS_ALLOCATION_BUFFER_SIZE (20000)
+#else /* MBEDTLS_VERSION_NUMBER > 0x03010000 */
+#define OC_MBEDTLS_ALLOCATION_BUFFER_SIZE (25000)
+#endif /* MBEDTLS_VERSION_NUMBER <= 0x03010000 */
+#endif /* OC_MBEDTLS_ALLOCATION_BUFFER_SIZE */
+
+static unsigned char g_alloc_buf[OC_MBEDTLS_ALLOCATION_BUFFER_SIZE];
+#endif /* !OC_DYNAMIC_ALLOCATION */
+
+#if defined(_WIN32) || defined(_WIN64)
+#include "mbedtls/platform.h"
+#endif /* _WIN32 || _WIN64  */
+
+#include <time.h>
+
+void
+oc_mbedtls_init(void)
+{
+#ifndef OC_DYNAMIC_ALLOCATION
+  mbedtls_memory_buffer_alloc_init(g_alloc_buf, OC_ARRAY_SIZE(g_alloc_buf));
+#endif /* !OC_DYNAMIC_ALLOCATION */
+
+#if OC_DBG_IS_ENABLED
+#if defined(_WIN32) || defined(_WIN64)
+  // mbedtls debug logs fail if snprintf is not specified
+  mbedtls_platform_set_snprintf(snprintf);
+#endif /* _WIN32 or _WIN64 */
+  mbedtls_debug_set_threshold(4);
+#endif /* OC_DBG_IS_ENABLED */
+}
+
+void
+oc_sec_own_resources(size_t device, oc_uuid_t uuid)
+{
+  oc_sec_acl_t *acl = oc_sec_get_acl(device);
+  memcpy(acl->rowneruuid.id, uuid.id, sizeof(uuid.id));
+
+  oc_sec_doxm_t *doxm = oc_sec_get_doxm(device);
+  memcpy(doxm->devowneruuid.id, uuid.id, sizeof(uuid.id));
+  memcpy(doxm->deviceuuid.id, uuid.id, sizeof(uuid.id));
+  memcpy(doxm->rowneruuid.id, uuid.id, sizeof(uuid.id));
+  doxm->owned = true;
+  doxm->oxmsel = 0;
+
+  oc_sec_creds_t *creds = oc_sec_get_creds(device);
+  memcpy(creds->rowneruuid.id, uuid.id, sizeof(uuid.id));
+
+  oc_sec_pstat_t *ps = oc_sec_get_pstat(device);
+  memcpy(ps->rowneruuid.id, uuid.id, sizeof(uuid.id));
+  ps->tm = 0;
+  ps->cm = 0;
+  ps->isop = true;
+  ps->s = OC_DOS_RFNOP;
+}
+
+int
+oc_sec_self_own(size_t device)
+{
+  OC_DBG("performing self-onboarding of device(%zu)", device);
+  const oc_uuid_t *uuid = oc_core_get_device_id(device);
+  if (uuid == NULL) {
+    return -1;
+  }
+  oc_sec_own_resources(device, *uuid);
+
+  oc_sec_acl_add_bootstrap_acl(device);
+
+  oc_sec_sdi_t *sdi = oc_sec_sdi_get(device);
+  const oc_device_info_t *self = oc_core_get_device_info(device);
+  oc_gen_uuid(&sdi->uuid);
+  oc_set_string(&sdi->name, oc_string(self->name), oc_string_len(self->name));
+  sdi->priv = false;
+
+  oc_sec_dump_pstat(device);
+  oc_sec_dump_doxm(device);
+  oc_sec_dump_cred(device);
+  oc_sec_dump_acl(device);
+  oc_sec_dump_ael(device);
+  oc_sec_dump_sdi(device);
+
+  return 0;
+}
+
+void
+oc_sec_self_disown(size_t device)
+{
+  oc_sec_sdi_default(device);
+
+  oc_sec_pstat_t *ps = oc_sec_get_pstat(device);
+  oc_sec_pstat_clear(ps, true);
+  oc_sec_dump_pstat(device);
+
+  oc_sec_cred_default(device);
+  oc_sec_doxm_default(device);
+  oc_sec_ael_default(device);
+  oc_sec_acl_default(device);
+}
+
+#ifdef OC_HAS_FEATURE_PLGD_TIME
+
+void
+oc_mbedtls_platform_time_init(void)
+{
+  mbedtls_platform_set_time(oc_mbedtls_platform_time);
+}
+
+void
+oc_mbedtls_platform_time_deinit(void)
+{
+  mbedtls_platform_set_time(MBEDTLS_PLATFORM_STD_TIME);
+}
+
+mbedtls_time_t
+oc_mbedtls_platform_time(mbedtls_time_t *timer)
+{
+  if (!plgd_time_is_active()) {
+    return MBEDTLS_PLATFORM_STD_TIME(timer);
+  }
+
+  unsigned long ct = plgd_time_seconds();
+  if (ct == (unsigned long)-1) {
+    return -1;
+  }
+  mbedtls_time_t t = (mbedtls_time_t)ct;
+  if (timer != NULL) {
+    *timer = t;
+  }
+  return t;
+}
+
+#endif /* OC_HAS_FEATURE_PLGD_TIME */
+
+#endif /* OC_SECURITY */
+

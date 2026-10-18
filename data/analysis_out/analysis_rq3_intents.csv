@@ -1,0 +1,7 @@
+intent,n_opportunities,n_missed,miss_rate
+MI-ERR,8,8,1.0
+MI-PTR,28,25,0.8929
+MI-STR,28,20,0.7143
+MI-VOLATILE,16,11,0.6875
+MI-TYPE,52,35,0.6731
+MI-BOUND,24,16,0.6667

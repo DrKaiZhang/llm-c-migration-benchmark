@@ -1,0 +1,649 @@
+{
+  "population": {
+    "n_tasks_constructed": 20,
+    "n_tasks_attempted": 19,
+    "n_attempts": 76,
+    "n_degenerate_pairs_excluded": 1,
+    "degenerate_task_ids": [
+      "esp8266_ard__f841c326"
+    ],
+    "models": [
+      "qwen2.5-coder-0.5b",
+      "qwen2.5-coder-1.5b"
+    ],
+    "reps_per_task": 1,
+    "projects": [
+      "Beremiz",
+      "ESP8266-Arduino",
+      "FreeRTOS-Kernel",
+      "IoTivity-Lite",
+      "Mosquitto"
+    ],
+    "construction_screening": {
+      "accepted": 20,
+      "no_intent": 8,
+      "too_large": 1,
+      "change_too_small": 31
+    },
+    "context_line_budget": 260
+  },
+  "rq1_per_model": [
+    {
+      "model": "qwen2.5-coder-0.5b",
+      "n_attempts": 38,
+      "n_tasks": 19,
+      "coverage": {
+        "name": "intent_coverage",
+        "n": 38,
+        "mean": 0.2193,
+        "sd": 0.3877,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.375,
+        "max": 1.0,
+        "iqr": 0.375
+      },
+      "coverage_mean": 0.2193,
+      "coverage_full_tasks": 2,
+      "coverage_full_share": 0.1053,
+      "structural_similarity": {
+        "name": "sim_to_modern",
+        "n": 38,
+        "mean": 0.1513,
+        "sd": 0.0714,
+        "min": 0.047,
+        "q1": 0.0931,
+        "median": 0.1451,
+        "q3": 0.2,
+        "max": 0.3218,
+        "iqr": 0.1069
+      },
+      "sim_mean": 0.1513,
+      "compiles": 0,
+      "compile_rate": 0.0,
+      "median_line_delta": -208.0,
+      "identical_to_modern": 0,
+      "identical_to_legacy": 0,
+      "zero_coverage": 28
+    },
+    {
+      "model": "qwen2.5-coder-1.5b",
+      "n_attempts": 38,
+      "n_tasks": 19,
+      "coverage": {
+        "name": "intent_coverage",
+        "n": 38,
+        "mean": 0.2982,
+        "sd": 0.4194,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.625,
+        "max": 1.0,
+        "iqr": 0.625
+      },
+      "coverage_mean": 0.2982,
+      "coverage_full_tasks": 4,
+      "coverage_full_share": 0.2105,
+      "structural_similarity": {
+        "name": "sim_to_modern",
+        "n": 38,
+        "mean": 0.167,
+        "sd": 0.0789,
+        "min": 0.0461,
+        "q1": 0.0999,
+        "median": 0.1784,
+        "q3": 0.2339,
+        "max": 0.3218,
+        "iqr": 0.134
+      },
+      "sim_mean": 0.167,
+      "compiles": 0,
+      "compile_rate": 0.0,
+      "median_line_delta": -219.0,
+      "identical_to_modern": 0,
+      "identical_to_legacy": 0,
+      "zero_coverage": 24
+    }
+  ],
+  "rq1_similarity_thresholds": [
+    {
+      "model": "qwen2.5-coder-0.5b",
+      "threshold": 0.25,
+      "n": 3,
+      "share": 0.0789
+    },
+    {
+      "model": "qwen2.5-coder-0.5b",
+      "threshold": 0.5,
+      "n": 0,
+      "share": 0.0
+    },
+    {
+      "model": "qwen2.5-coder-0.5b",
+      "threshold": 0.75,
+      "n": 0,
+      "share": 0.0
+    },
+    {
+      "model": "qwen2.5-coder-1.5b",
+      "threshold": 0.25,
+      "n": 6,
+      "share": 0.1579
+    },
+    {
+      "model": "qwen2.5-coder-1.5b",
+      "threshold": 0.5,
+      "n": 0,
+      "share": 0.0
+    },
+    {
+      "model": "qwen2.5-coder-1.5b",
+      "threshold": 0.75,
+      "n": 0,
+      "share": 0.0
+    }
+  ],
+  "rq2_model_comparison": {
+    "coverage": {
+      "model_a": "qwen2.5-coder-0.5b",
+      "model_b": "qwen2.5-coder-1.5b",
+      "median_a": 0.0,
+      "median_b": 0.0,
+      "mannwhitney_u": {
+        "U": 650.0,
+        "z": -0.9055,
+        "p": 0.365203,
+        "effect_r": -0.0997,
+        "n_x": 38,
+        "n_y": 38
+      },
+      "cliffs_delta": -0.0997,
+      "delta_ci": {
+        "point": -0.0997,
+        "lo": -0.2979,
+        "hi": 0.1066,
+        "n_boot": 1000
+      }
+    },
+    "similarity": {
+      "model_a": "qwen2.5-coder-0.5b",
+      "model_b": "qwen2.5-coder-1.5b",
+      "median_a": 0.14505,
+      "median_b": 0.1784,
+      "mannwhitney_u": {
+        "U": 633.0,
+        "z": -0.92,
+        "p": 0.357567,
+        "effect_r": -0.1233,
+        "n_x": 38,
+        "n_y": 38
+      },
+      "cliffs_delta": -0.1233,
+      "delta_ci": {
+        "point": -0.1233,
+        "lo": -0.3878,
+        "hi": 0.1094,
+        "n_boot": 1000
+      }
+    }
+  },
+  "rq3_intent_miss_rate": [
+    {
+      "intent": "MI-ERR",
+      "n_opportunities": 8,
+      "n_missed": 8,
+      "miss_rate": 1.0
+    },
+    {
+      "intent": "MI-PTR",
+      "n_opportunities": 28,
+      "n_missed": 25,
+      "miss_rate": 0.8929
+    },
+    {
+      "intent": "MI-STR",
+      "n_opportunities": 28,
+      "n_missed": 20,
+      "miss_rate": 0.7143
+    },
+    {
+      "intent": "MI-VOLATILE",
+      "n_opportunities": 16,
+      "n_missed": 11,
+      "miss_rate": 0.6875
+    },
+    {
+      "intent": "MI-TYPE",
+      "n_opportunities": 52,
+      "n_missed": 35,
+      "miss_rate": 0.6731
+    },
+    {
+      "intent": "MI-BOUND",
+      "n_opportunities": 24,
+      "n_missed": 16,
+      "miss_rate": 0.6667
+    }
+  ],
+  "rq3_repetition_stability": {
+    "n_pairs": 38,
+    "n_identical": 36,
+    "median_range": 0.0,
+    "detail": [
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "beremiz__2eee1d65",
+        "n": 2,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "beremiz__66ee2715",
+        "n": 2,
+        "min": 0.6667,
+        "max": 0.6667,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "beremiz__cbcbfa90",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "beremiz__e91aaf3d",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "esp8266_ard__6789b6bc",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "esp8266_ard__a09eb189",
+        "n": 2,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "esp8266_ard__f3294b87",
+        "n": 2,
+        "min": 0.5,
+        "max": 0.5,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "freertos__39190b22",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "freertos__4d8d93cb",
+        "n": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "range": 1.0,
+        "identical": 0
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "freertos__83e6bdbd",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "freertos__a2ee7a45",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "iotivity__13a2879a",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "iotivity__5e551019",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "iotivity__e1281e54",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "iotivity__f491e8ff",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "mosquitto__33793e06",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "mosquitto__90e411bd",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "mosquitto__a67b3ba5",
+        "n": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "range": 1.0,
+        "identical": 0
+      },
+      {
+        "model": "qwen2.5-coder-0.5b",
+        "task_id": "mosquitto__cc6f58f4",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "beremiz__2eee1d65",
+        "n": 2,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "beremiz__66ee2715",
+        "n": 2,
+        "min": 0.6667,
+        "max": 0.6667,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "beremiz__cbcbfa90",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "beremiz__e91aaf3d",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "esp8266_ard__6789b6bc",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "esp8266_ard__a09eb189",
+        "n": 2,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "esp8266_ard__f3294b87",
+        "n": 2,
+        "min": 0.5,
+        "max": 0.5,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "freertos__39190b22",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "freertos__4d8d93cb",
+        "n": 2,
+        "min": 0.5,
+        "max": 0.5,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "freertos__83e6bdbd",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "freertos__a2ee7a45",
+        "n": 2,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "iotivity__13a2879a",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "iotivity__5e551019",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "iotivity__e1281e54",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "iotivity__f491e8ff",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "mosquitto__33793e06",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "mosquitto__90e411bd",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "mosquitto__a67b3ba5",
+        "n": 2,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "identical": 1
+      },
+      {
+        "model": "qwen2.5-coder-1.5b",
+        "task_id": "mosquitto__cc6f58f4",
+        "n": 2,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "identical": 1
+      }
+    ]
+  },
+  "rq4_coverage_vs_similarity": {
+    "spearman_rho": 0.5358,
+    "p": 1e-06,
+    "n": 76,
+    "interpretation": "a positive association means an attempt that supplies the requested idioms is also closer to the revision a human committed, which is what makes the intent axis a usable proxy rather than a tautology"
+  },
+  "rq4_by_project": [
+    {
+      "project": "ESP8266-Arduino",
+      "n_attempts": 12,
+      "mean_coverage": 0.5,
+      "n_tasks": 3
+    },
+    {
+      "project": "Beremiz",
+      "n_attempts": 16,
+      "mean_coverage": 0.4167,
+      "n_tasks": 4
+    },
+    {
+      "project": "FreeRTOS-Kernel",
+      "n_attempts": 16,
+      "mean_coverage": 0.25,
+      "n_tasks": 4
+    },
+    {
+      "project": "Mosquitto",
+      "n_attempts": 16,
+      "mean_coverage": 0.1875,
+      "n_tasks": 4
+    },
+    {
+      "project": "IoTivity-Lite",
+      "n_attempts": 16,
+      "mean_coverage": 0.0,
+      "n_tasks": 4
+    }
+  ],
+  "compile_failure_taxonomy": {
+    "n_failed": 76,
+    "n_total": 76,
+    "note": "the compile axis is a quality marker, not a gate: a translation unit needs platform types and configuration macros that do not exist inside the unit, so a standalone build cannot be expected to succeed for most of this corpus",
+    "by_cause": [
+      {
+        "cause": "truncated-output",
+        "n": 26,
+        "share": 0.3421
+      },
+      {
+        "cause": "other",
+        "n": 26,
+        "share": 0.3421
+      },
+      {
+        "cause": "unknown-type",
+        "n": 12,
+        "share": 0.1579
+      },
+      {
+        "cause": "undeclared-identifier",
+        "n": 9,
+        "share": 0.1184
+      },
+      {
+        "cause": "syntax",
+        "n": 3,
+        "share": 0.0395
+      }
+    ]
+  }
+}
